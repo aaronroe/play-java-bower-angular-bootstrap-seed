@@ -1,4 +1,4 @@
-name := "Play-Java-Bower-Angular-Bootstrap-Seed"
+name := "FuZy Idea"
 
 version := "1.0-SNAPSHOT"
 
