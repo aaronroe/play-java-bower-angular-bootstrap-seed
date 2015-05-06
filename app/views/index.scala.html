@@ -1,6 +1,13 @@
 @(message: String)
 
-@main("Welcome to a Play seed project") {
+@main("FuZzy") {
+		<h1>FuZzy</h1>
+		<button ng-click="count = count + 1" ng-init="count=0">
+ 			Increment
+		</button>
+		<span>
+  			count: {{count}}
+		</span>
 		<div ng-controller="seedIndexCtrl">
 		</div>
 }
