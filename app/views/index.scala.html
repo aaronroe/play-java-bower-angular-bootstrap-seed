@@ -2,14 +2,18 @@
 
 @main("FuZzy") {
 		<div class="panel panel-primary">
-  			<div class="panel-heading">
-    			<h3 class="panel-title">FuZzy</h3>
-  			</div>
-  			<div class="panel-body">
-    			<button type="button" class="btn btn-default btn-lg" ng-click="count = count + 1" ng-init="count=0">Dale!</button>
-				<span>count: {{count}}</span>
-  			</div>
-		</div>
+  			
+<ul class="nav nav-pills">
+  <li role="presentation" class="active"><a href="#">Botón</a>
+    <button type="button" class="btn btn-default btn-lg" ng-click="count = count + 1" ng-init="count=0">Dale!</button>
+      <span>count: {{count}}</span>
+  </li>
+  <li role="presentation"><a href="#">No tocar</a></li>
+  <li role="presentation"><a href="#"></a></li>
+</ul>
+
+
+
 		<div ng-controller="seedIndexCtrl">
 		</div>
 }
