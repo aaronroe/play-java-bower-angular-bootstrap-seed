@@ -1,19 +1,10 @@
 @(message: String)
 
 @main("FuZzy") {
-		<div class="panel panel-primary">
-  			
-<ul class="nav nav-pills">
-  <li role="presentation" class="active"><a href="#">Botón</a>
-    <button type="button" class="btn btn-default btn-lg" ng-click="count = count + 1" ng-init="count=0">Dale!</button>
-      <span>count: {{count}}</span>
-  </li>
-  <li role="presentation"><a href="#">No tocar</a></li>
-  <li role="presentation"><a href="#"></a></li>
-</ul>
-
-
-
-		<div ng-controller="seedIndexCtrl">
-		</div>
+		<div ng-controller="FuzzyController as fuzzy">
+        <h1>{{fuzzy.user.name}}</h1>
+        <h2>{{fuzzy.user.admin}}</h2>
+        <p>{{fuzzy.user.pswd}}</p>
+        
+    </div>
 }
