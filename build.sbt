@@ -1,4 +1,4 @@
-name := "FuZy Idea"
+name := "FuZzy Idea"
 
 version := "1.0-SNAPSHOT"
 
@@ -19,4 +19,4 @@ libraryDependencies ++= Seq(
 
 playJavaSettings 
 
-//pipelineStages := Seq(rjs, digest, gzip)
+pipelineStages := Seq(rjs, digest, gzip)
