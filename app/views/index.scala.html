@@ -1,6 +1,10 @@
 @(message: String)
 
-@main("Welcome to a Play seed project") {
-		<div ng-controller="seedIndexCtrl">
-		</div>
+@main("FuZzy") {
+		<div ng-controller="FuzzyController as fuzzy">
+        <h1>{{fuzzy.user.name}}</h1>
+        <h2>{{fuzzy.user.admin}}</h2>
+        <p>{{fuzzy.user.pswd}}</p>
+        
+    </div>
 }
